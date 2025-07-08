@@ -24,3 +24,9 @@ document.querySelectorAll('.filter').forEach(filter => {
     });
   });
 });
+
+document.querySelector('.contact-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  alert('Message submitted! (form action can be connected later)');
+});
+
